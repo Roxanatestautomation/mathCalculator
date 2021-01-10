@@ -6,15 +6,14 @@ public class Components {
     int b;
 
     public int addition (int a, int b) {
-        System.out.println(a+b);
-        return 0;
+        return a+b;
     }
 
     public int subtraction (int a, int b) {
-        return 0;
+        return a-b;
     }
 
     public int multiplication (int a, int b){
-        return 0;
+        return a*b;
     }
 }
