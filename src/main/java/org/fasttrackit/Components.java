@@ -6,6 +6,7 @@ public class Components {
     int b;
 
     public int addition (int a, int b) {
+        System.out.println(a+b);
         return 0;
     }
 

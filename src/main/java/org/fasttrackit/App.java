@@ -7,12 +7,10 @@ public class App
         Components components = new Components();
         int a = 4;
         int b = 2;
-        int sum = a+b;
         int sub = a-b;
         int mut = a*b;
 
         components.addition(a,b);
-        System.out.println(sum);
 
         components.subtraction(a,b);
         System.out.println(sub);
